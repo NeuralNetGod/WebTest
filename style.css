@@ -20,6 +20,13 @@
     url("./fonts/AbnormalRegular.otf") format("opentype");
 }
 @font-face {
+  font-family: "RadioGrotesk Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Radio-Grotesk Regular"),
+    url("./fonts/RadioGrotesk-Regular.otf") format("opentype");
+}
+@font-face {
   font-family: "Abnormal";
   font-style: normal;
   font-weight: normal;
@@ -118,7 +125,7 @@ hr.line {
   width: 100%;
   height: 71.2vh;
   margin-top: 10%;
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .header {
@@ -386,7 +393,7 @@ hr.line {
   margin-top: 2%;
   font-family: "Roboto";
   height: 125vh;
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .security-head {
@@ -420,6 +427,7 @@ hr.line {
 
 .img6 {
   height: 40vw;
+  margin-top: -3vw;
 }
 
 .key__section {
@@ -438,10 +446,30 @@ hr.line {
   display: flex;
 }
 
+.left__key1 {
+  box-shadow: 1vw 1vw 1.5vw rgb(189, 187, 187);
+  height: 10vw;
+  width: 45vw;
+  border-radius: 20px;
+  margin-bottom: 2vw;
+  display: flex;
+}
+
 .blue__side {
   background-color: #2fa4ff;
   box-shadow: 3px 3px 15px rgb(189, 187, 187);
   height: 12vw;
+  width: 90px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 0px;
+}
+
+.blue__side1 {
+  background-color: #2fa4ff;
+  box-shadow: 3px 3px 15px rgb(189, 187, 187);
+  height: 10vw;
   width: 90px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -469,6 +497,93 @@ hr.line {
   text-align: left;
   color: rgb(158, 153, 153);
   padding-left: 1.5vw;
+}
+
+.third__section {
+  padding-top: 5%;
+  background-color: #fff;
+  width: 100%;
+}
+
+.purple_ {
+  font-size: 4vw;
+  font-family: "Roboto";
+  color: #cc66ff;
+  font-weight: bolder;
+}
+
+.explore-merch {
+  color: rgb(188, 184, 184);
+  margin-left: 12%;
+  font-weight: 300;
+  font-size: 1.8vw;
+  font-family: "Roboto";
+}
+
+.keys {
+  display: flex;
+  justify-content: space-around;
+}
+
+.enabled3 {
+  font-size: 2.5vw;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 3vw;
+}
+
+.enabled4 {
+  background-color: #cc66ff;
+  height: 0.5vw;
+  width: 12vw;
+  margin-top: -5%;
+  margin-left: 11%;
+  margin-bottom: 5.5vw;
+}
+.enabled5 {
+  background-color: #cc66ff;
+  height: 0.5vw;
+  width: 8vw;
+  margin-top: -5%;
+  margin-left: 11%;
+  margin-bottom: 5.5vw;
+}
+.enabled6 {
+  background-color: #cc66ff;
+  height: 0.5vw;
+  width: 15vw;
+  margin-top: -5%;
+  margin-left: 11%;
+  margin-bottom: 5.5vw;
+}
+.enabled7 {
+  background-color: #cc66ff;
+  height: 0.5vw;
+  width: 18vw;
+  margin-top: -5%;
+  margin-left: 11%;
+  margin-bottom: 5.5vw;
+}
+.support2 {
+  color: rgb(188, 184, 184);
+  text-align: left;
+  margin-left: 5%;
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 20px;
+  box-shadow: 1vw 1vw 2vw rgb(188, 184, 184);
+  height: 5vw;
+  width: 40vw;
+  border-radius: 20px;
+}
+
+.support {
+  margin-bottom: 2vw;
 }
 
 .savings {
