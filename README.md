@@ -1,2 +1,2 @@
-# xade-static
-The New Static Website For xade.finance
+# WebTest
+Test
